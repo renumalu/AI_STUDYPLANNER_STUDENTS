@@ -470,7 +470,7 @@ We welcome contributions! Please follow these steps:
 
 | Name | Role | GitHub |
 |------|------|--------|
-| Your Name | Full Stack Developer | [@yourusername](https://github.com/yourusername) |
+| C R RENUKA| Full Stack Developer | [renumalu](https://github.com/renumalu/AI_STUDYPLANNER_STUDENTS) |
 
 ---
 

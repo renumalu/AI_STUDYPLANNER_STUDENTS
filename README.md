@@ -6,7 +6,7 @@
 
 **Study Smarter, Not Harder** 🚀
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-EduBloom-6366F1?style=for-the-badge&logo=vercel)](https://feature-complete-32.preview.emergentagent.com)
+
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)

@@ -1,0 +1,158 @@
+{
+  "identity": {
+    "persona": "E1",
+    "philosophy": "Fusion over Imitation. Emotion First. Content is King.",
+    "archetype": "Swiss & High-Contrast (Modified for Student Focus)",
+    "vibe": "Electric Utility - Clean, precise, but with kinetic energy."
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Outfit, sans-serif",
+      "body": "DM Sans, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "heading": "600 (SemiBold) or 500 (Medium) - Avoid Bold",
+      "body": "400 (Regular)",
+      "emphasis": "500 (Medium)"
+    },
+    "sizes": {
+      "h1": "text-4xl md:text-5xl tracking-tight",
+      "h2": "text-3xl md:text-4xl tracking-tight",
+      "h3": "text-2xl tracking-tight",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm leading-normal",
+      "tiny": "text-xs tracking-wide uppercase"
+    },
+    "instructions": "Use 'Outfit' for all headings. Use 'DM Sans' for body text. Use 'JetBrains Mono' for dates, times, and data metrics."
+  },
+  "colors": {
+    "theme_strategy": "Dual Theme (Light/Dark Toggle)",
+    "light": {
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "card_foreground": "#0F172A",
+      "primary": "#4F46E5",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F1F5F9",
+      "secondary_foreground": "#0F172A",
+      "muted": "#F1F5F9",
+      "muted_foreground": "#64748B",
+      "accent": "#EEF2FF",
+      "accent_foreground": "#4F46E5",
+      "border": "#E2E8F0",
+      "input": "#E2E8F0",
+      "ring": "#4F46E5"
+    },
+    "dark": {
+      "background": "#09090B",
+      "foreground": "#F8FAFC",
+      "card": "#18181B",
+      "card_foreground": "#F8FAFC",
+      "primary": "#6366F1",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#27272A",
+      "secondary_foreground": "#F8FAFC",
+      "muted": "#27272A",
+      "muted_foreground": "#A1A1AA",
+      "accent": "#1E1B4B",
+      "accent_foreground": "#818CF8",
+      "border": "#27272A",
+      "input": "#27272A",
+      "ring": "#6366F1"
+    },
+    "semantic": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    },
+    "gradients": {
+      "primary_gradient": "from-indigo-500 to-violet-500",
+      "glass_surface": "bg-white/70 dark:bg-black/60 backdrop-blur-xl border border-white/20 dark:border-white/10"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing_scale": "Generous. Use p-6, p-8, p-12. Avoid cramped p-2 or p-4 for main containers.",
+    "grid_system": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "card_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+    },
+    "bento_rules": {
+      "hero": "col-span-full md:col-span-8 row-span-2",
+      "sidebar": "col-span-full md:col-span-4 row-span-2",
+      "stat": "col-span-1 md:col-span-4"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-6 rounded-md font-medium transition-all active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-6 rounded-md font-medium transition-all active:scale-95",
+      "ghost": "hover:bg-accent hover:text-accent-foreground h-10 px-4 rounded-md transition-colors",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-6 rounded-md transition-colors"
+    },
+    "cards": {
+      "base": "rounded-xl border border-border bg-card text-card-foreground shadow-sm",
+      "hover_effect": "hover:shadow-md transition-shadow duration-200",
+      "glass": "bg-white/50 dark:bg-black/50 backdrop-blur-lg border border-white/20 dark:border-white/10"
+    },
+    "inputs": {
+      "base": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "visual_enhancers": {
+    "borders": "Use 1px borders with subtle colors. Avoid thick borders.",
+    "shadows": "Use 'shadow-sm' for cards, 'shadow-lg' for floating elements. Avoid heavy drop shadows.",
+    "radius": "rounded-xl for cards, rounded-md for buttons/inputs.",
+    "glassmorphism": "Use for sticky headers and floating navigation.",
+    "tracing_beam": "Use for the 'Current Study Session' active card."
+  },
+  "motion": {
+    "transitions": "transition-all duration-200 ease-in-out",
+    "hover": "hover:-translate-y-1 hover:shadow-lg",
+    "active": "active:scale-95",
+    "page_load": "animate-in fade-in slide-in-from-bottom-4 duration-500"
+  },
+  "images": {
+    "login_hero": {
+      "url": "https://images.pexels.com/photos/6283211/pexels-photo-6283211.jpeg",
+      "alt": "Student focused on studying in a library",
+      "usage": "Login/Register page side image"
+    },
+    "dashboard_empty": {
+      "url": "https://images.unsplash.com/photo-1761446812468-d88eef0d01da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtaW5pbWFsaXN0JTIwZGVzayUyMHNldHVwJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNzcwNDYwODU0fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Minimalist dark desk setup",
+      "usage": "Empty state or background texture"
+    },
+    "ai_feature": {
+      "url": "https://images.unsplash.com/photo-1630155923002-17db0f219f1f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGJyYWluJTIwbmV1cmFsJTIwbmV0d29yayUyMG1pbmltYWx8ZW58MHx8fHwxNzcwNDYwODU0fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Abstract neural network visualization",
+      "usage": "AI Assistant feature card background"
+    }
+  },
+  "universal_guidelines": {
+    "general": [
+      "Do not use generic centered layouts.",
+      "Create depth through layered design elements.",
+      "Use glass-morphism effects with backdrop filters.",
+      "Every interaction needs micro-animations.",
+      "Use 2-3x more spacing than feels comfortable.",
+      "All interactive elements MUST include data-testid attribute."
+    ],
+    "components": [
+      "Prioritize using pre-existing components from src/components/ui.",
+      "Use named exports for components.",
+      "Use default exports for pages.",
+      "Use 'sonner' for toasts."
+    ],
+    "forbidden": [
+      "Do not use 'Inter' for headings.",
+      "Do not use 'Space Grotesk'.",
+      "Do not use Teal (#1B93A4) for dashboards.",
+      "Do not use AI assistant emojis."
+    ]
+  },
+  "instructions_to_main_agent": "Follow these guidelines strictly. Implement the 'Electric Swiss' theme. Use the provided image URLs. Ensure the app feels like a premium tool for engineering students, not a generic admin panel."
+}

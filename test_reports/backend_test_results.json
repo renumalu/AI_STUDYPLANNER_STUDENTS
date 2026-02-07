@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-02-07T12:37:58.421206",
+  "total_tests": 32,
+  "passed_tests": 31,
+  "success_rate": 96.875,
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:22.189864"
+    },
+    {
+      "test": "Root Endpoint",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:23.027409"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:24.499523"
+    },
+    {
+      "test": "Get Profile (Login Verification)",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:25.490523"
+    },
+    {
+      "test": "Complete Onboarding",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:26.489065"
+    },
+    {
+      "test": "Create Subject",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:27.402589"
+    },
+    {
+      "test": "Get Subjects",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:28.233245"
+    },
+    {
+      "test": "Update Subject",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:28.849670"
+    },
+    {
+      "test": "Delete Subject",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:29.689240"
+    },
+    {
+      "test": "Create Subject for Plan",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:36:30.335590"
+    },
+    {
+      "test": "Generate Study Plan",
+      "success": false,
+      "details": "Exception: HTTPSConnectionPool(host='feature-complete-32.preview.emergentagent.com', port=443): Read timed out. (read timeout=30)",
+      "timestamp": "2026-02-07T12:37:00.412205"
+    },
+    {
+      "test": "Get Progress Stats",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:14.255815"
+    },
+    {
+      "test": "Get Progress History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:14.989791"
+    },
+    {
+      "test": "AI Assistant Chat",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:19.202870"
+    },
+    {
+      "test": "Get Chat History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:20.058433"
+    },
+    {
+      "test": "Clear Chat History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:20.936701"
+    },
+    {
+      "test": "Export PDF Data",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:21.787868"
+    },
+    {
+      "test": "Export ICS Calendar",
+      "success": true,
+      "details": "ICS export successful",
+      "timestamp": "2026-02-07T12:37:22.739473"
+    },
+    {
+      "test": "YouTube Video Summarization",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:31.251571"
+    },
+    {
+      "test": "Get YouTube Summaries",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:32.198728"
+    },
+    {
+      "test": "Delete YouTube Summary",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:33.239519"
+    },
+    {
+      "test": "Generate Quiz",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:43.250961"
+    },
+    {
+      "test": "Submit Quiz",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:44.241201"
+    },
+    {
+      "test": "Get Quiz History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:44.989244"
+    },
+    {
+      "test": "Get Initial Flashcard Decks",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:45.818978"
+    },
+    {
+      "test": "Generate Flashcards",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:53.239512"
+    },
+    {
+      "test": "Get Deck Cards",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:54.239513"
+    },
+    {
+      "test": "Add Manual Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:55.179438"
+    },
+    {
+      "test": "Review Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:56.070863"
+    },
+    {
+      "test": "Get Cards for Review",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:56.931500"
+    },
+    {
+      "test": "Delete Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:57.582879"
+    },
+    {
+      "test": "Delete Flashcard Deck",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:37:58.418936"
+    }
+  ]
+}

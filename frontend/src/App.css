@@ -1,0 +1,91 @@
+/* App-specific styles */
+.cognitive-high {
+    @apply border-l-4 border-l-red-500;
+}
+
+.cognitive-medium {
+    @apply border-l-4 border-l-amber-500;
+}
+
+.cognitive-low {
+    @apply border-l-4 border-l-green-500;
+}
+
+.session-learning {
+    @apply bg-indigo-500/10 dark:bg-indigo-500/20;
+}
+
+.session-practice {
+    @apply bg-violet-500/10 dark:bg-violet-500/20;
+}
+
+.session-revision {
+    @apply bg-emerald-500/10 dark:bg-emerald-500/20;
+}
+
+.session-buffer {
+    @apply bg-slate-500/10 dark:bg-slate-500/20;
+}
+
+/* Confidence level colors */
+.confidence-1 {
+    @apply bg-red-500;
+}
+
+.confidence-2 {
+    @apply bg-orange-500;
+}
+
+.confidence-3 {
+    @apply bg-amber-500;
+}
+
+.confidence-4 {
+    @apply bg-lime-500;
+}
+
+.confidence-5 {
+    @apply bg-emerald-500;
+}
+
+/* Tracing beam for active session */
+.active-session {
+    @apply relative;
+}
+
+.active-session::before {
+    content: '';
+    @apply absolute -left-1 top-0 bottom-0 w-1 bg-gradient-to-b from-indigo-500 to-violet-500 rounded-full;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Chat bubble styles */
+.chat-bubble-user {
+    @apply bg-primary text-primary-foreground rounded-2xl rounded-br-md;
+}
+
+.chat-bubble-assistant {
+    @apply bg-secondary text-secondary-foreground rounded-2xl rounded-bl-md;
+}
+
+/* Loading spinner */
+.spinner {
+    @apply animate-spin rounded-full border-2 border-muted border-t-primary;
+}
+
+/* Bento grid */
+.bento-grid {
+    @apply grid grid-cols-1 md:grid-cols-12 gap-6;
+}
+
+.bento-hero {
+    @apply col-span-full md:col-span-8 row-span-2;
+}
+
+.bento-sidebar {
+    @apply col-span-full md:col-span-4;
+}
+
+.bento-stat {
+    @apply col-span-1 md:col-span-4;
+}

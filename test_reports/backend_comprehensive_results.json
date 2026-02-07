@@ -1,0 +1,389 @@
+{
+  "timestamp": "2026-02-07T12:26:38.232954",
+  "total_tests": 54,
+  "passed_tests": 51,
+  "success_rate": 94.44444444444444,
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:25:56.872803"
+    },
+    {
+      "test": "Root Endpoint",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:25:58.360165"
+    },
+    {
+      "test": "Register Invalid Email",
+      "success": false,
+      "details": "Status: 422, Error: [{'type': 'value_error', 'loc': ['body', 'email'], 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': 'invalid-email', 'ctx': {'reason': 'An email address must have an @-sign.'}}]",
+      "timestamp": "2026-02-07T12:25:59.216301"
+    },
+    {
+      "test": "Register Valid User",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:00.220166"
+    },
+    {
+      "test": "Register Duplicate Email",
+      "success": true,
+      "details": "Status: 400",
+      "timestamp": "2026-02-07T12:26:00.849396"
+    },
+    {
+      "test": "Login Valid Credentials",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:01.990992"
+    },
+    {
+      "test": "Login Invalid Password",
+      "success": true,
+      "details": "Status: 401",
+      "timestamp": "2026-02-07T12:26:03.277854"
+    },
+    {
+      "test": "Access Protected Without Token",
+      "success": false,
+      "details": "Status: 403, Error: Not authenticated",
+      "timestamp": "2026-02-07T12:26:04.188782"
+    },
+    {
+      "test": "Access Protected Invalid Token",
+      "success": true,
+      "details": "Status: 401",
+      "timestamp": "2026-02-07T12:26:05.239537"
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:06.240698"
+    },
+    {
+      "test": "Complete Onboarding",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:07.133789"
+    },
+    {
+      "test": "Update Profile",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:07.955283"
+    },
+    {
+      "test": "Get Updated Profile",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:08.626736"
+    },
+    {
+      "test": "Profile Name Update Verification",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-02-07T12:26:08.628968"
+    },
+    {
+      "test": "Create Subject 1: Data Structures and Algorithms",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:09.475695"
+    },
+    {
+      "test": "Create Subject 2: Database Management Systems",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:10.299046"
+    },
+    {
+      "test": "Create Subject 3: Operating Systems",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:11.134890"
+    },
+    {
+      "test": "Get All Subjects",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:11.767132"
+    },
+    {
+      "test": "Subject Count Verification",
+      "success": true,
+      "details": "Found 3 subjects",
+      "timestamp": "2026-02-07T12:26:11.769545"
+    },
+    {
+      "test": "Update Subject Confidence",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:12.739128"
+    },
+    {
+      "test": "Update Non-existent Subject",
+      "success": true,
+      "details": "Status: 404",
+      "timestamp": "2026-02-07T12:26:13.581730"
+    },
+    {
+      "test": "Delete Non-existent Subject",
+      "success": true,
+      "details": "Status: 404",
+      "timestamp": "2026-02-07T12:26:14.488954"
+    },
+    {
+      "test": "Get Initial Progress Stats",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:15.564587"
+    },
+    {
+      "test": "Update Confidence for Data Structures and ",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:16.240055"
+    },
+    {
+      "test": "Update Confidence for Database Management ",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:17.090811"
+    },
+    {
+      "test": "Update Confidence for Operating Systems",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:17.957685"
+    },
+    {
+      "test": "Get Updated Progress Stats",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:18.623870"
+    },
+    {
+      "test": "Get Progress History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:19.474247"
+    },
+    {
+      "test": "Progress History Verification",
+      "success": true,
+      "details": "Found 3 history entries",
+      "timestamp": "2026-02-07T12:26:19.475910"
+    },
+    {
+      "test": "Export PDF Data",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:20.302732"
+    },
+    {
+      "test": "PDF Data Contains user",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-02-07T12:26:20.304366"
+    },
+    {
+      "test": "PDF Data Contains subjects",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-02-07T12:26:20.304383"
+    },
+    {
+      "test": "PDF Data Contains stats",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-02-07T12:26:20.304391"
+    },
+    {
+      "test": "Export ICS Calendar",
+      "success": true,
+      "details": "No study plan found (expected)",
+      "timestamp": "2026-02-07T12:26:21.129480"
+    },
+    {
+      "test": "Generate AI Study Plan",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:22.163007"
+    },
+    {
+      "test": "Get Study Plan",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:23.238343"
+    },
+    {
+      "test": "Mark Session Complete",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:24.239406"
+    },
+    {
+      "test": "AI Assistant Chat",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:25.242335"
+    },
+    {
+      "test": "Get Chat History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:26.427947"
+    },
+    {
+      "test": "Clear Chat History",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:27.130269"
+    },
+    {
+      "test": "YouTube Video Summarization",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:27.821415"
+    },
+    {
+      "test": "Get YouTube Summaries",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:28.532162"
+    },
+    {
+      "test": "Delete YouTube Summary",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:29.376009"
+    },
+    {
+      "test": "Generate AI Quiz",
+      "success": false,
+      "details": "Status: 520, Error: Failed to generate quiz questions",
+      "timestamp": "2026-02-07T12:26:30.070803"
+    },
+    {
+      "test": "Generate AI Flashcards",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:30.966087"
+    },
+    {
+      "test": "Get Deck Cards",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:31.825966"
+    },
+    {
+      "test": "Create Manual Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:32.513183"
+    },
+    {
+      "test": "Review Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:33.176455"
+    },
+    {
+      "test": "Delete Flashcard",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:34.188033"
+    },
+    {
+      "test": "Get Cards for Review",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:35.238377"
+    },
+    {
+      "test": "Delete Flashcard Deck",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:35.889022"
+    },
+    {
+      "test": "Cleanup Subject: Data Structures and ",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:36.736683"
+    },
+    {
+      "test": "Cleanup Subject: Database Management ",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:37.570785"
+    },
+    {
+      "test": "Cleanup Subject: Operating Systems",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-02-07T12:26:38.230908"
+    }
+  ],
+  "created_resources": {
+    "user_email": "edutest1770467159@university.edu",
+    "user_password": "securepass123",
+    "subjects": [
+      {
+        "id": "3a8ff4fe-4bbd-416c-9ebd-99388a29d9cd",
+        "user_id": "98869433-7fd9-4940-b5cb-1ddcc152ddf2",
+        "name": "Data Structures and Algorithms",
+        "credits": 4,
+        "strong_areas": [
+          "Arrays",
+          "Linked Lists",
+          "Stacks"
+        ],
+        "weak_areas": [
+          "Trees",
+          "Graphs",
+          "Dynamic Programming"
+        ],
+        "confidence_level": 3,
+        "color": "#6366F1"
+      },
+      {
+        "id": "f6a061de-2cb8-4e5c-acd4-5f90827990c6",
+        "user_id": "98869433-7fd9-4940-b5cb-1ddcc152ddf2",
+        "name": "Database Management Systems",
+        "credits": 3,
+        "strong_areas": [
+          "SQL Basics",
+          "ER Diagrams"
+        ],
+        "weak_areas": [
+          "Normalization",
+          "Transactions",
+          "Indexing"
+        ],
+        "confidence_level": 2,
+        "color": "#8B5CF6"
+      },
+      {
+        "id": "5d2a99c4-588c-482b-8904-712e62e5db03",
+        "user_id": "98869433-7fd9-4940-b5cb-1ddcc152ddf2",
+        "name": "Operating Systems",
+        "credits": 4,
+        "strong_areas": [
+          "Process Management"
+        ],
+        "weak_areas": [
+          "Memory Management",
+          "File Systems",
+          "Deadlocks"
+        ],
+        "confidence_level": 4,
+        "color": "#EC4899"
+      }
+    ]
+  }
+}
